@@ -24,8 +24,7 @@ Set-CsTeamsVoiceApplicationsPolicy
  [-AllowAutoAttendantLanguageChange <Boolean>] 
  [-AllowAutoAttendantBusinessHoursRoutingChange <Boolean>] 
  [-AllowAutoAttendantAfterHoursRoutingChange <Boolean>]
- [-AllowAutoAttendantHolidayRoutingChange <Boolean>] 
- 
+ [-AllowAutoAttendantHolidayRoutingChange <Boolean>]  
  [-AllowCallQueueWelcomeGreetingChange <Boolean>] 
  [-AllowCallQueueMusicOnHoldChange <Boolean>]
  [-AllowCallQueueOverflowSharedVoicemailGreetingChange <Boolean>]
@@ -40,15 +39,15 @@ Set-CsTeamsVoiceApplicationsPolicy
  [-AllowCallQueueOverflowRoutingChange <Boolean>]
  [-AllowCallQueueTimeoutRoutingChange <Boolean>] 
  [-AllowCallQueueNoAgentsRoutingChange <Boolean>]
- [-AllowCallQueueAgentOptChange <Boolean>] 
- 
+ [-AllowCallQueueAgentOptChange <Boolean>]  
  [-CallQueueAgentMonitorMode <Disabled | Monitor | Whisper | Barge | Takeover>]
- [-CallQueueAgentMonitorNotificationMode <Disabled | Agent>]
- 
+ [-CallQueueAgentMonitorNotificationMode <Disabled | Agent>] 
  [-RealTimeAutoAttendantMetricsPermission <string>]
  [-RealTimeCallQueueMetricsPermission <string>]
- [-RealTimeAgentMetricsPermission <string>]
- 
+ [-RealTimeAgentMetricsPermission <string>] 
+ [-HistoricalTimeAutoAttendantMetricsPermission <string>]
+ [-HistoricalCallQueueMetricsPermission <string>]
+ [-HistoricalAgentMetricsPermission <string>] 
  [[-Identity] <String>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
