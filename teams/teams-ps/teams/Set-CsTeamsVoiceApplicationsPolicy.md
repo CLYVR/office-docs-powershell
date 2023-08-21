@@ -25,7 +25,6 @@ Set-CsTeamsVoiceApplicationsPolicy
  [-AllowAutoAttendantBusinessHoursRoutingChange <Boolean>] 
  [-AllowAutoAttendantAfterHoursRoutingChange <Boolean>]
  [-AllowAutoAttendantHolidayRoutingChange <Boolean>] 
- 
  [-AllowCallQueueWelcomeGreetingChange <Boolean>] 
  [-AllowCallQueueMusicOnHoldChange <Boolean>]
  [-AllowCallQueueOverflowSharedVoicemailGreetingChange <Boolean>]
